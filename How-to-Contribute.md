@@ -191,9 +191,6 @@ Run the unit tests directly from a terminal by running `./scripts/test.sh` from 
 
 We also have automated UI tests. The [smoke test README](https://github.com/Microsoft/vscode/blob/main/test/smoke/README.md) has all the details.
 
-### Unit Testing
-Run the tests directly from a terminal by running `./scripts/test.sh` from the `vscode` folder (`scripts\test` on Windows). The [test README](https://github.com/Microsoft/vscode/blob/main/test/README.md) has complete details on how to run and debug tests, as well as how to produce coverage reports.
-
 ### Linting
 We use [eslint](https://eslint.org/) for linting our sources. You can run eslint across the sources by calling `yarn eslint` from a terminal or command prompt. You can also run `yarn eslint` as a VS Code task by pressing <kbd>Ctrl</kbd>+<kbd>P</kbd> (<kbd>CMD</kbd>+<kbd>P</kbd> on macOS) and entering `task eslint`.
 
